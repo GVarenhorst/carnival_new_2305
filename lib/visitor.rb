@@ -16,6 +16,10 @@ class Visitor
   end
 
   def tall_enough?(min_height)
-    @height >= min_height
+    if @height >= min_height
+      true
+    else
+      false
+    end
   end
 end
